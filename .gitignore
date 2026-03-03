@@ -1,0 +1,22 @@
+# Archivos del sistema (Mac)
+.DS_Store
+
+# Archivos del sistema (Windows)
+Thumbs.db
+desktop.ini
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos temporales
+*.log
+
+# Archivos de Node (por si accidentalmente instalas algo)
+node_modules/
+
+# Archivos de build (por si pruebas cosas)
+dist/
+build/
+
+# Archivos temporales del navegador
+*.tmp
