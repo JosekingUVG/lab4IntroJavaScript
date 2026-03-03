@@ -4,13 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DISCI-APP</title>
-    <link rel="stylesheet" href="CSS/Index.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
 </head>
+<body>
 <header>
     <h1>DISCI-APP</h1>
     <p>Mejora tu disciplina y sorpréndete a ti mismo</p>
     <h3>XP Total: <span id="xp">0</span></h3>
     <h3>Rango: <span id="rango">Guerrero</span></h3>
 </header>
+
+    <!-- Botón para mostrar formulario -->
+    <section>
+        <button id="mostrarFormulario">Crear misión</button>
+    </section>
+
+    <!-- Formulario (oculto al inicio) -->
+    <section id="formularioSeccion" ">
+        <h2>Nueva misión</h2>
+        <form id="formMision">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            
+            <textarea id="descripcion" placeholder="Descripción" required></textarea>
+
+            <select id="dificultad">
+                <option value="10">Fácil (10 XP)</option>
+                <option value="25">Normal (25 XP)</option>
+                <option value="50">Difícil (50 XP)</option>
+            </select>
+
+            <button type="submit">Aceptar</button>
+        </form>
+    </section>
+
+ <!-- Misiones pendientes -->
+    <section>
+        <h2>Pendientes</h2>
+        <div id="pendientes"></div>
+    </section>
+
+    <!-- Logros -->
+    <section>
+        <h2>Logros</h2>
+        <div id="logros"></div>
+    </section>
+
+    <script src="JS/Index.js"></script>
+
+</body>
 
 </html>
