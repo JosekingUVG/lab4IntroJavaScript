@@ -22,10 +22,52 @@ section {
     cursor: pointer;
 }
 
-/* Ocultar formulario al inicio */
-.oculto {
-    display: none;
+/* Contenedor del formulario */
+#formularioSeccion {
+    display: none; /* ya lo tenías */
+    background-color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Título */
+#formularioSeccion h2 {
+    margin-top: 0;
+}
+
+/* Inputs y textarea */
+#formularioSeccion input,
+#formularioSeccion textarea,
+#formularioSeccion select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Botón aceptar */
+#formularioSeccion button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Efecto hover */
+#formularioSeccion button:hover {
+    background-color: #444;
+}
+
 
 /* Contenedor de tareas */
 #pendientes button {
@@ -58,4 +100,8 @@ section {
     margin: 5px auto;
     padding: 8px;
     width: 250px;
+}
+
+#formularioSeccion {
+    display: none;
 }
