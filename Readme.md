@@ -137,7 +137,7 @@ No se requiere instalación de dependencias.
 
 Link del video mostrando el funcionamiento completo de la aplicación:
 
-👉 **(Agregar link del video aquí)**
+👉 **([Agregar link del video aquí](https://www.youtube.com/watch?v=elKVOJfC014))**
 
 ---
 
